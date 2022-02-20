@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "axios": "^0.26.0",
-    "core-js": "^3.6.5",
+    "core-js": "^3.21.1",
+    "corejs": "^1.0.0",
     "es6-promise": "^4.2.8",
     "vue": "^3.0.0",
     "vuex": "^4.0.2"
