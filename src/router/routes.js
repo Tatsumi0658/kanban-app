@@ -19,7 +19,7 @@ const routes = [
     meta: {requiredAuth: true}
   },
   {
-    path: '/:pathMatch(.*)*',
+    path: '/:pathMatch(.*)*', /*正規化しないとエラーになる*/
     redirect: '/'
   }
 ]
